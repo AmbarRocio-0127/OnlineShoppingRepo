@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+
+    <style>
+
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+
+        body{
+    font-family: 'Spicy Rice', cursive;
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+ 
+        footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    color: white;
+    }
+
+    p{
+    color: black;
+    }
+
+    h4{
+    color: black;
+    }
+
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+    <!--USANDO FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#"> <i class="fas fa-shopping-bag "></i> Online Shopping </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="/"><i class="fas fa-home"> Home</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/contact"><i class="fas fa-id-card">Contacts</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/about"><i class="fas fa-eject"></i>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/"><i class="fas fa-file-alt"></i>Clients Register</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop by categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Dresses</a></li>
+                                <li><a class="dropdown-item" href="#">Top</a></li>
+                                <li><a class="dropdown-item" href="#">Shorts</a></li>
+                                <li><a class="dropdown-item" href="#">Blouses</a></li>
+                                <li><a class="dropdown-item" href="#">Skirts</a></li>
+                                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Other Varieties</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<center>
+</br></br></br>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.ytimg.com/vi/OApaDpjxulo/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Estilos con todo tipo de variedades</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/originals/fe/ab/37/feab3705c8005a6f890523d7f81baf2d.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Tu mejor opción</h4>
+              <p>Para mantener el estilo autentico que te identifica, aquí tenemos las mejores opciones.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.vogue.it/wp-content/uploads/2018/03/30182431/leggings.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>La tendencia vanguardista de la moda femenina</h4>
+              <p>Tu mejor opción para mamntenerte a la moda con un estilo femenino y juvenil.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</center>
+
+<div class="container-fluid">
+    </br></br></br></br>
+    <div class="row">
+    <div class="col">
+    <div class="card bg-light" style="width: 18rem;">
+        <img src="https://2.bp.blogspot.com/-CBm2_KGLHrY/VKqJrwyinCI/AAAAAAAB_xQ/YJCrbXaxxs0/s1600/Vestidos%2Bcortos%2Bde%2Bmoda%2B(6).jpg" class="card-img-top" alt="..." width="220" height="400">
+        <div class="card-body bg-light">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-dark">More Info</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="card bg-light" style="width: 18rem;">
+            <img src="https://tendencias-de-la-moda.com/wp-content/uploads/2019/01/jeans-de-moda-mujer-2019-1.jpg" class="card-img-top" alt="..."width="220" height="400">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card bg-light" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/f9/29/0a/f9290a7b0c8f6169c6642fbcdd63b5be.jpg" class="card-img-top" alt="..." width="220" height="400">
+                <div class="card-body bg-light">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/a8/27/24/a82724c57dbf5a1dedc099fdd0fae4d3.jpg" class="card-img-top" alt="..." width="220" height="400">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">More Info</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/OIP.77IqiRcsg2BR-PgD7DD7awHaLF?pid=ImgDet&w=800&h=1198&rs=1" class="card-img-top" alt="..." width="220" height="400">
+                        <div class="card-body bg-light">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark">More Info</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+    
+</br></br>
+    <div class="row">
+        <div class="col">
+            <div class="card bg-light" style="width: 18rem;">
+                <img src="https://stay-trendy.com/wp-content/uploads/2019/05/womens-jeans-2020-10.jpg" class="card-img-top" alt="..." width="220" height="400">
+                <div class="card-body bg-light">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col">
+                <div class="card bg-light" style="width: 18rem;">
+                    <img src="https://1.bp.blogspot.com/-f1vZGcNB53g/WUTB2XWgBnI/AAAAAAACrow/qcS49W2bNZUEqaz6jP5_L9nQQye92y3AgCLcBGAs/s1600/vESTIDOS-DE-MODA-DE-NOCHE.jpg" class="card-img-top" alt="..." width="220" height="400">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">More Info</a>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="https://cdn-img.prettylittlething.com/a/b/5/4/ab54c08df8ce8ea466c8da21e716732cc35fa892_CLT2013_4.JPG" class="card-img-top" alt="..." width="220" height="400">
+                        <div class="card-body bg-light">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark">More Info</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card bg-light" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/b8/a2/49/b8a2491ea4670cdb5f8c3c3ba0ea1523.jpg" class="card-img-top" alt="..." width="220" height="400">
+                            <div class="card-body bg-light">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark">More Info</a>
+                            </div>
+                          </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img src="https://th.bing.com/th/id/OIP.h5i7oXDnfwFKO9Cejx70rgHaJc?pid=ImgDet&w=217&h=276&c=7" class="card-img-top" alt="..." width="220" height="400">
+                                <div class="card-body bg-light">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-dark">More Info</a>
+                                </div>
+                              </div>
+                            </div>
+    </div>
+
+</br></br>
+<div class="row">
+    <div class="col">
+        <div class="card bg-light" style="width: 18rem;">
+            <img src="https://i.pinimg.com/originals/d5/09/9a/d5099adcbec76afdcbea53ef7465cfb6.jpg" class="card-img-top" alt="..." width="220" height="400">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark">More Info</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+            <div class="card bg-light" style="width: 18rem;">
+                <img src="https://th.bing.com/th/id/R.2d8d862ff567c45b827e5d4f78298a9b?rik=rvetlo5Zk%2fsoKg&riu=http%3a%2f%2fnlyscandinavia.scene7.com%2fis%2fimage%2fnlyscandinavia%2f321779-0014_3%3f%24productpage_slider_desktop%24%26cropN%3d0.02%2c0%2c0.955%2c1&ehk=e2Uray8mtBDZU8M0bFZMk0sV22lcPmZdthnKALVD2ak%3d&risl=&pid=ImgRaw" class="card-img-top" alt="..." width="220" height="400">
+                <div class="card-body bg-light">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+                <div class="card bg-light" style="width: 18rem;">
+                    <img src="https://th.bing.com/th/id/R.9dc9acc00be4896775797d1265e9f414?rik=j%2fXH8Lgv%2f0ikaA&riu=http%3a%2f%2fwww.misimagenesde.com%2fwp-content%2fuploads%2f2014%2f12%2fvestidos-de-moda-5.jpg&ehk=Cl2tY3EoP4iWWchxCkgzvHGsdb7D%2bVzk127sPsJb6kE%3d&risl=&pid=ImgRaw" class="card-img-top" alt="..." width="220" height="400">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">More Info</a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img src="https://cdn.shopify.com/s/files/1/0027/3367/0473/products/IMG_6541_88a3905e-26cd-4717-ab2f-ac9a39a79cc3_2000x.jpg?v=1593438301" class="card-img-top" alt="..." width="220" height="400">
+                        <div class="card-body bg-light">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark">More Info</a>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card bg-light" style="width: 18rem;">
+                            <img src="https://vestidosglam.com/wp-content/uploads/2017/06/vestido-de-jeans-8-758x1024.jpg" class="card-img-top" alt="..." width="220" height="400">
+                            <div class="card-body bg-light">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark">More Info</a>
+                            </div>
+                          </div>
+                        </div>
+</div>
+</div>
+
+</br></br></br></br></br></br></br></br></br></br>
+<center>
+    <div class="footer">
+<footer>
+            <br><a href="#"><i class="fab fa-facebook"; width="30px" height="30px"></i></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        <p>
+            &copy; Copyright 2021 | All rights reserved
+        </p>
+</footer>
+    </div>
+
+</center>
+</div>
+    <script src="jquery/jquery-3.3.1.min.js"></script>	 	
+    <script src="popper/popper.min.js"></script>	 	 	
+    <script src="bootstrap4/js/bootstrap.min.js"></script>   	
+    <script src="jqueryUI/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+</body>
+</html>
