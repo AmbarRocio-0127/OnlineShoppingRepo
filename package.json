@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm src/index"
+    "start": "npm src/routes/index"
   },
   "keywords": [],
   "author": "",
